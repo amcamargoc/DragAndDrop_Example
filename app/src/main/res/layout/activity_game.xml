@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".GameActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="mille"
+        android:id="@+id/one_thousand"
+        android:layout_gravity="center"
+        android:layout_marginLeft="162dp"
+        android:layout_marginStart="162dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/target"
+        android:layout_toEndOf="@+id/target" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/target"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="duemilla"
+        android:id="@+id/two_thousand"
+        android:layout_gravity="center"
+        android:layout_alignBottom="@+id/one_thousand"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/money"
+        android:layout_alignTop="@+id/target"
+        android:layout_alignRight="@+id/one_thousand"
+        android:layout_alignEnd="@+id/one_thousand" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/toPay"
+        android:layout_alignBottom="@+id/two_thousand"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
